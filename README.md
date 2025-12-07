@@ -39,7 +39,3 @@ Script analysis data files: [https://mega.nz/folder/2fRVkS5C#P3J22tluXrTjYZihhZg
 - llm_pt_sdp_f1_harmonic_means.csv
 
   F1-Scores are calculated based on the performance of an LLM and prompting technique combination to accurately predict values for an SSVC decision point in a given trial. The F1-Scores from the three trials are then used to determine the harmonic mean, thereby providing a single score for the LLM, prompting technique and SSVC decision point combination.
-
-- cohens_kappa_results.csv
-
-  Calculation of Weighted and Unweighted Cohen's Kappas when comparing llm-ssvc-decision and ground_truth from the prompt_queries_llm_responses.csv. Weighted provides insights into similarity (e.g. an LLM responding Attend is more performant than an LLM responding Track when the ground truth is Act).
